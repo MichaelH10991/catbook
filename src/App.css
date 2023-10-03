@@ -1,5 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  height: 100%;
+}
+
 .App {
   text-align: center;
+  background-image: linear-gradient(137deg, #facf96, #ffeed9);
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +47,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.greeting {
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 700;
 }
