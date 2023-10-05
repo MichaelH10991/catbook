@@ -1,9 +1,9 @@
-.dashboard-container{
+.dashboard-container {
   display: flex;
   flex-direction: column;
   gap: 30px;
 
-  background: lightgrey;
+  background: #272727;
   /* height: 100%; */
   /* justify-content: center; */
   /* align-items: center; */
@@ -30,7 +30,6 @@
 .header-middle {
   flex: 1;
   justify-content: center;
-
 }
 
 .header-right {
@@ -45,15 +44,14 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .content {
-  width: 90%;
+  width: 650px;
   height: 100%;
-  background-color: white;
-
-  box-shadow: 0px 0px 6px #6d6d6d;
-  border-radius: 17px;
 }
 
 /* posts css */
@@ -61,10 +59,8 @@
 .posts {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 
-  margin-left: 40px;
-  margin-right: 40px;
-  padding-bottom: 20px;
   /* padding-top: 20px; */
   /* height: 200px; */
   /* height: 100%; */
@@ -72,23 +68,58 @@
 }
 
 .post-container {
-  margin-right: 35%;
+  /* margin-right: 35%; */
 }
 
 .post {
+  background-color: white;
+
+  box-shadow: 0px 0px 6px #6d6d6d;
+  border-radius: 17px;
+
+  padding: 20px 30px 20px 30px;
+
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
 
   text-align: left;
-  /* background-color: antiquewhite; */
-  margin-top: 20px;
-  /* height: 200px; */
 }
 
 .post-header {
   display: flex;
+  flex-direction: row;
   gap: 9px;
+}
+
+.user-icon {
+  height: 56px;
+  width: 61px;
+  background-color: #078bff;
+  border-radius: 40px;
+}
+
+.post-stuff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.post-stuff-left {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.post-stuff-left-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-stats {
+  font-size: 14px;
+  color: grey;
 }
 
 .post-name {
@@ -106,14 +137,14 @@
 }
 
 .image-container {
-
 }
 
 .post-image {
-  width: 456px;
-  height: 232px;
+  width: 100%;
+  height: auto;
+  /* width: 456px; */
+  /* height: 232px; */
   border: 1px solid rgb(175, 175, 175);
   border-radius: 10px;
   object-fit: cover;
 }
-

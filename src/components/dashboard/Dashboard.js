@@ -1,5 +1,6 @@
 import "./dashboard.css";
 import cat1 from "./images/Cat_August_2010-4.jpg";
+import cat2 from "./images/images.jpeg";
 
 const Dashboard = () => {
   return (
@@ -25,8 +26,21 @@ const Dashboard = () => {
               <div class="post-container">
                 <div className="post">
                   <div className="post-header">
-                    <div className="post-name">Bob The Cat</div>
-                    <div className="post-handle">@iobxt</div>
+                    <div className="user-icon"></div>
+                    <div className="post-stuff">
+                      <div className="post-stuff-left-rows">
+                        <div className="post-stuff-left">
+                          <div className="post-name">Bob The Cat</div>
+                          <div className="post-handle">@iobxt</div>
+                        </div>
+                        <div className="post-stats">
+                          <div>1 d</div>
+                        </div>
+                      </div>
+                      <div className="post-header-right">
+                        <div>more</div>
+                      </div>
+                    </div>
                   </div>
                   <div className="post-title">Just Chillin'</div>
                   <div className="post-description">
@@ -41,16 +55,29 @@ const Dashboard = () => {
               <div class="post-container">
                 <div className="post">
                   <div className="post-header">
-                    <div className="post-name">Someone Someone</div>
-                    <div className="post-handle">@iobxt</div>
+                    <div className="user-icon"></div>
+                    <div className="post-stuff">
+                      <div className="post-stuff-left-rows">
+                        <div className="post-stuff-left">
+                          <div className="post-name">Bob The Cat</div>
+                          <div className="post-handle">@iobxt</div>
+                        </div>
+                        <div className="post-stats">
+                          <div>1 d</div>
+                        </div>
+                      </div>
+                      <div className="post-header-right">
+                        <div>more</div>
+                      </div>
+                    </div>
                   </div>
-                  <div className="post-title">This is a title</div>
-                  <div className="post-subtitle">
+                  <div className="post-title">Just Chillin'</div>
+                  <div className="post-description">
                     This is a subtitle that is quite long and should test word
                     wrapping ssa sas skj ad nwekjfscn ewkjsfn sdkjf nwkjsd{" "}
                   </div>
-                  <div className="post-image">
-                    <img src=""></img>
+                  <div className="image-container">
+                    <img className="post-image" src={cat2}></img>
                   </div>
                 </div>
               </div>
