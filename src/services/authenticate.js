@@ -30,3 +30,18 @@ export const logout = () => {
   user.signOut();
   window.location.href = "/";
 };
+
+export const confirm = (Email, confirmation) => {
+  var userData = {
+    Username: Email,
+    Pool: userpool,
+  };
+  const user = new CognitoUser(userData);
+  user.confirmRegistration(confirmation, true, function (err, result) {
+    if (err) {
+      alert(err.message || JSON.stringify(err));
+      return;
+    }
+    console.log("call result: " + result);
+  });
+};
