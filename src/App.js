@@ -3,12 +3,14 @@ import "./App.css";
 
 import Login from "./components/login/Login";
 import Dashboard from "./components/dashboard/Dashboard";
+import Signup from "./components/signup/Signup";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
   return (
     <div className="App">
-      {!loggedIn ? <Login setLoggedIn={setLoggedIn} /> : <Dashboard />}
+      <Login />
+      {/* <Signup /> */}
     </div>
   );
 }

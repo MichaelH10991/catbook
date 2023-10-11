@@ -5,13 +5,16 @@ body {
   padding: 0;
 }
 
+p {
+  margin: 0
+}
+
 .root {
   height: 100%;
 }
 
 .App {
-  text-align: center;
-  /* background-image: linear-gradient(137deg, #facf96, #ffeed9); */
+  /* text-align: center; */
   background-color: #272727;
   height: 100%;
 }
@@ -49,11 +52,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
-
-.greeting {
-  color: white;
-  padding-top: 50px;
-  font-size: 30px;
-  font-weight: 700;
 }

@@ -1,24 +1,11 @@
-.login-container {
+.signup-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
-}
-
-.greeting-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.greeting {
-  color: white;
   padding-top: 50px;
-  font-size: 30px;
-  font-weight: 700;
 }
 
-.login-box {
+.signup-box {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -32,14 +19,24 @@
   padding-right: 25px;
 }
 
-.login-header {
+.signup-header {
   font-size: 30px;
   margin-top: 20px;
   /* margin-bottom: 10px; */
   font-weight: 700;
 }
 
-.input-container {
+.input-group {
+  width: 100%;
+}
+
+.input-group p {
+  font-size: 13px;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.signup-input-container {
   display: flex;
   justify-content: space-between;
   background-color: rgb(238, 238, 238);
@@ -48,26 +45,26 @@
   height: 43px;
 }
 
-.login-input {
+.signup-input {
   width: 100%;
-  margin-left: 10px;
+  padding-left: 10px;
   background-color: transparent;
   border: 0;
 }
 
-.login-buttons {
+.signup-buttons {
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   width: 100%;
 }
 
-.login-button {
+.signup-button {
   font-size: 17px;
-  background-image: linear-gradient(91deg, #ff5722, #ff9800);
+  background-image: linear-gradient(91deg, #FF5722, #FF9800);
   border: 0;
   border-radius: 21px;
   width: 86%;
@@ -76,27 +73,6 @@
   transition: opacity 0.2s;
 }
 
-.login-button:hover {
+.signup-button:hover {
   opacity: 60%;
 }
-
-.bottom-links {
-  margin-bottom: 27px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.bottom-link {
-  color: #256c95;
-}
-
-
-/* @media screen {
-  
-  .bottom-links {
-    flex-direction: column;
-    gap: 14px;
-  }
-} */

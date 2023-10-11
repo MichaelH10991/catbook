@@ -2,7 +2,7 @@ import "./login.css";
 
 const Login = ({ setLoggedIn }) => {
   return (
-    <div className="">
+    <>
       <div className="greeting-container">
         <div className="greeting">Welcome Back.</div>
       </div>
@@ -40,7 +40,7 @@ const Login = ({ setLoggedIn }) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
