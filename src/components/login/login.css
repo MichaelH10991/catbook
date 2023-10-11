@@ -5,6 +5,19 @@
   margin-top: 50px;
 }
 
+.greeting-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greeting {
+  color: white;
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .login-box {
   display: flex;
   flex-direction: column;
@@ -12,7 +25,6 @@
   align-items: center;
   border-radius: 4px;
   background-color: white;
-  /* box-shadow: 0px 6px 13px #988162; */
   width: 450px;
   width: 450px;
   gap: 19px;
@@ -77,5 +89,14 @@
 }
 
 .bottom-link {
-  color: blue;
+  color: #256c95;
 }
+
+
+/* @media screen {
+  
+  .bottom-links {
+    flex-direction: column;
+    gap: 14px;
+  }
+} */

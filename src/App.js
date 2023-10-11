@@ -7,7 +7,12 @@ import Signup from "./components/signup/Signup";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
-  return <div className="App">{<Signup />}</div>;
+  return (
+    <div className="App">
+      <Login />
+      {/* <Signup /> */}
+    </div>
+  );
 }
 
 export default App;
